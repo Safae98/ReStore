@@ -3,6 +3,7 @@ import Catalog from "../../features/catalog/Catalog";
 import { Container, CssBaseline, ThemeProvider, createTheme } from "@mui/material";
 import Header from "./Header";
 import { useState } from "react";
+import { Outlet } from "react-router-dom";
 
 
 
@@ -30,7 +31,7 @@ function handelThemeChange(){
       <CssBaseline /> 
       <Header darkMode= {darkMode} handelThemeChange={handelThemeChange}/> 
       <Container>
-        <Catalog />
+        <Outlet />
       </Container>
     </ThemeProvider>
   )
