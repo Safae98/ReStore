@@ -1,4 +1,4 @@
-import { ShoppingCart, Title } from "@mui/icons-material";
+import { ShoppingCart } from "@mui/icons-material";
 import { AppBar, ListItem, Switch, Toolbar, Typography ,List, IconButton, Badge, Box} from "@mui/material";
 import { NavLink } from "react-router-dom";
 
